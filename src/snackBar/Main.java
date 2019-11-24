@@ -47,6 +47,13 @@ public class Main
 		bob.buy(pretzel.getTotalCost(3));
 		System.out.println(bob.getCash());  //22.14
 		System.out.println(pretzel.getQuantity());  //36
+
+		//for stretch
+		System.out.println(chips.getQuantity() + " " + chips.getName() + " at total cost of " + chips.getTotalCost(chips.getQuantity()) + " in vending machine " + food.getName());
+		System.out.println(chocolateBar.getQuantity() + " " + chocolateBar.getName() + " at total cost of " + chocolateBar.getTotalCost(chocolateBar.getQuantity()) + " in vending machine " + food.getName());
+		System.out.println(pretzel.getQuantity() + " " + pretzel.getName() + " at total cost of " + pretzel.getTotalCost(pretzel.getQuantity()) + " in vending machine " + food.getName());
+		System.out.println(soda.getQuantity() + " " + soda.getName() + " at total cost of " + soda.getTotalCost(soda.getQuantity()) + " in vending machine " + drink.getName());
+		System.out.println(water.getQuantity() + " " + water.getName() + " at total cost of " + water.getTotalCost(water.getQuantity()) + " in vending machine " + drink.getName());
 	}
 }
 
